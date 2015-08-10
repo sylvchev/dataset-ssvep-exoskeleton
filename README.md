@@ -10,7 +10,7 @@ This dataset gathers SSVEP-based BCI recordings of 12 subjects operating an uppe
 This dataset is used in the following publications:
 
 -  Emmanuel K. Kalunga, Sylvain Chevallier, Olivier Rabreau, Eric Monacelli. _Hybrid interface : Integrating BCI in Multimodal Human-Machine Interfaces_. IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM), 2014, Besancon, France.
--  Emmanuel Kalunga, Sylvain Chevallier, , Quentin Barthelemy. _Data augmentation in Riemannian space for Brain-Computer Interfaces_, STAMLINS (ICML workshop), 2015, Lille, France.
+-  Emmanuel Kalunga, Sylvain Chevallier, Quentin Barthelemy. _Data augmentation in Riemannian space for Brain-Computer Interfaces_, STAMLINS (ICML workshop), 2015, Lille, France.
 -  Emmanuel K. Kalunga, Sylvain Chevallier, Quentin Barthelemy. _Online SSVEP-based BCI using Riemannian Geometry_. arXiv preprint arXiv:1501.03227, 2015.
 
 
