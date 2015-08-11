@@ -30,7 +30,7 @@ A panel of size 20x30 cm is attached on the left side of the chair, with 3 group
 
 A sequence of trials is proposed to the user. A trial begin by an audio cue indicating which LED to focus on, or to focus on a fixation point set at an equal distance from all LEDs for the reject class. A trial lasts 5 seconds and there is a 3 second pause between each trial. The evaluation is conducted during a session consisting of 32 trials, with 8 trials for each frequency (13Hz, 17Hz and 21Hz) and 8 trials for the reject class, i.e. when the subject is not focusing on any specific blinking LED.
 
-The recording are saved in GDF format [3], the stimulations code for each class are available as time events. There is between 2 and 5 sessions for each users, recorded on different days, by the same operators, on the same hardware and in the same conditions.
+The recording are saved in GDF format [3], the stimulations code for each class are available as time events. There is between 2 and 5 sessions for each user, recorded on different days, by the same operators, on the same hardware and in the same conditions.
 
 ## Bibliography
 
