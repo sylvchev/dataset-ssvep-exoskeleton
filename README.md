@@ -44,6 +44,10 @@ The stimulation code used in GDF file are those defined by OpenVibe:
 
 The stimulation code are used as follows: *ExperimentStart* and *ExperimentStop* indicate the begining and the end of the session. A trial start with a *Label_XX* stimulation code indicating the class of the example, there is a 3s pause before the audio cue indicating the stimulus to focus. The audio cue onset is indicated by *VisualStimulationStart*, this is the start of the trial. The end of the trial take place 5s after and is indicated by *VisualStimulationStop*. *Label_00* is for resting class, *Label_01* is for 13Hz stimulation, *Label_02* is for 21Hz stimulation and *Label_03* is for 17Hz stimulation.
 
+## Example code
+
+Two example notebooks explain how to [extract covariance matrices](https://gist.github.com/sylvchev/04b0ee8760f30da9d9c9) from the dataset based on the stimulation code and how to use a [Riemannian-based classification](https://gist.github.com/sylvchev/3d7442bcc4d78b419afa) scheme with the extracted spatial covariance matrices.
+
 ## Bibliography
 
 [1] M. Baklouti, P. A. Guyot, E. Monacelli, and S. Couvet. _Force controlled upper-limb powered exoskeleton for rehabilitation,_ in Intelligent Robots and Systems (IROS), 2008, p. 4202.
