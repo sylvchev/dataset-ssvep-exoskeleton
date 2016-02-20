@@ -32,6 +32,18 @@ A sequence of trials is proposed to the user. A trial begin by an audio cue indi
 
 The recording are saved in GDF format [3], the stimulations code for each class are available as time events. There is between 2 and 5 sessions for each user, recorded on different days, by the same operators, on the same hardware and in the same conditions.
 
+The stimulation code used in GDF file are those defined by OpenVibe:
+- ExperimentStart: 32769, 0x00008001,
+- ExperimentStop: 32770, 0x00008002
+- VisualStimulationStart: 32779, 0x0000800b
+- VisualStimulationStop: 32780, 0x0000800c
+- Label_00: 33024, 0x00008100
+- Label_01: 33025, 0x00008101
+- Label_02: 33026, 0x00008102
+- Label_03: 33027, 0x00008103
+
+The stimulation code are used as follows: *ExperimentStart* and *ExperimentStop* indicate the begining and the end of the session. A trial start with a *Label_XX* stimulation code indicating the class of the example, there is a 3s pause before the audio cue indicating the stimulus to focus. The audio cue onset is indicated by *VisualStimulationStart*, this is the start of the trial. The end of the trial take place 5s after and is indicated by *VisualStimulationStop*. *Label_00* is for resting class, *Label_01* is for 13Hz stimulation, *Label_02* is for 21Hz stimulation and *Label_03* is for 17Hz stimulation.
+
 ## Bibliography
 
 [1] M. Baklouti, P. A. Guyot, E. Monacelli, and S. Couvet. _Force controlled upper-limb powered exoskeleton for rehabilitation,_ in Intelligent Robots and Systems (IROS), 2008, p. 4202.
