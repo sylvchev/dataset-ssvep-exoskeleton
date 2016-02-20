@@ -32,7 +32,7 @@ A sequence of trials is proposed to the user. A trial begin by an audio cue indi
 
 The recording are saved in GDF format [3], the stimulations code for each class are available as time events. There is between 2 and 5 sessions for each user, recorded on different days, by the same operators, on the same hardware and in the same conditions.
 
-To allow direct Python processing, a gzip pickle version of the data are also available as '.pz' file.
+To allow direct Python processing, a gzip pickle version of the data are also available as '.pz' file. Sample code to use these file is provided below.
 
 The stimulation code used in GDF file are those defined by OpenVibe:
 - ExperimentStart: 32769, 0x00008001,
