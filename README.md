@@ -48,7 +48,7 @@ The stimulation code are used as follows: *ExperimentStart* and *ExperimentStop*
 
 ## Example code
 
-Two example notebooks explain how to [extract covariance matrices](https://gist.github.com/sylvchev/04b0ee8760f30da9d9c9) from the dataset based on the stimulation code and how to use a [Riemannian-based classification](https://gist.github.com/sylvchev/3d7442bcc4d78b419afa) scheme with the extracted spatial covariance matrices.
+Two example notebooks explain how to [extract covariance matrices](https://gist.github.com/sylvchev/04b0ee8760f30da9d9c9) from the dataset based on the stimulation code and how to use a [Riemannian-based classification](https://gist.github.com/sylvchev/3d7442bcc4d78b419afa) scheme with the extracted spatial covariance matrices. It is also possible to rely on [MNE to open and process](https://gist.github.com/sylvchev/0b8f37252aca85f41f0d) this dataset.
 
 ## Bibliography
 
