@@ -13,6 +13,7 @@ This dataset is used in the following publications:
 -  Emmanuel Kalunga, Sylvain Chevallier, Quentin Barthelemy. _Data augmentation in Riemannian space for Brain-Computer Interfaces_, STAMLINS (ICML workshop), 2015, Lille, France.
 -  Emmanuel K. Kalunga, Sylvain Chevallier, Quentin Barthelemy. [_Online SSVEP-based BCI using Riemannian Geometry_](http://www.sciencedirect.com/science/article/pii/S0925231216000540). Neurocomputing, 2016. arXiv research report on arXiv:1501.03227.
 
+It should be indicated that for these publications, the authors excluded the following sessions due to protocol issues (synchronization problem, hardware failure, etc): subject 08 session *record-[2013.04.06-16.22.32]*, subject 10 sessions *record-[2014.02.26-15.10.48]* and *record-[2014.02.26-15.50.09]*, subject 11 sessions *record-[2014.02.24-17.56.37]* and *record-[2014.02.24-18.02.40]*.
 
 ## Experimental setup
 
