@@ -4,6 +4,8 @@
 
 This dataset gathers SSVEP-based BCI recordings of 12 subjects operating an upper limb exoskeleton during a shared control task. The exoskeleton is either controlled with a touchless interface detecting hand poses or with SSVEP-based BCI.
 
+This dataset is part of the [MOABB](https://github.com/NeuroTechX/moabb/) project and could simply be downloaded and used via the [`SSVEPExo()`](http://moabb.neurotechx.com/docs/generated/moabb.datasets.SSVEPExo.html#moabb.datasets.SSVEPExo) class.
+
 
 ## Related publications:
 
